@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 public class DialogViewer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 
 		
 		PrintStream screen = System.out;
 		

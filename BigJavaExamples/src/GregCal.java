@@ -4,7 +4,7 @@ import java.util.GregorianCalendar;
 public class GregCal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 
 		
 		GregorianCalendar cal = new GregorianCalendar();
 		

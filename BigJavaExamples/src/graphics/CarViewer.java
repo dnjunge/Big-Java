@@ -1,21 +1,22 @@
+package graphics;
 import javax.swing.JFrame;
 
-public class RectangleViewer {
+public class CarViewer {
 
 	public static void main(String[] args) {
-		// 
-		
-		RectangleComponent component = new RectangleComponent();
 		
 		JFrame frame = new JFrame();
+		
 		frame.setSize(300, 400);
-		frame.setTitle("See Rect Comp");
+		frame.setTitle("Two cars");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
+		CarComponent component = new CarComponent();
 		frame.add(component);
 		
 		frame.setVisible(true);
 		
+
 	}
 
 }
